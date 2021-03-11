@@ -85,6 +85,8 @@ def loadTotals():
     print(df)
     totalFile = df
     totalFile.to_csv('dicts/totalList.csv', index=False)
+    app.setLabel("toutput", "Totals computed and stored at dicts/totalList.csv")
+    app.addTable("table1", [[totalFile.columns.values], totalFile.values()])
 
 
 def eventHandler(button):
