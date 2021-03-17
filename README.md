@@ -16,4 +16,4 @@ Used for a points system between multiple participant based on interviews, deliv
 
 ## Run
 
-Simply typing `python pointcalc.py` will run the applet.
+Simply typing `python pointcalc.py` will run the applet. To change the lists of people to total for, simply change the list of names and replace the rest of the CSV columns with 0. All of the scores are stored in the /dicts folder.
