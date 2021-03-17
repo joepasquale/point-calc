@@ -17,3 +17,10 @@ Used for a points system between multiple participant based on interviews, deliv
 ## Run
 
 Simply typing `python pointcalc.py` will run the applet. To change the lists of people to total for, simply change the list of names and replace the rest of the CSV columns with 0. All of the scores are stored in the /dicts folder.
+
+## Bugs
+
+-Will not work on a Windows PC with the Linux Subsystem, or in Docker/any other VM. This is because tkinter can't figure out where to point the GUI to display. If there's a way around this, please let me know. I can't figure out how to fix it.
+-Dates will only go up to 2020. This is appJar's fault because their DatePicker is still in beta. I may just change it to text fields but I was feeling lazy. 
+
+
